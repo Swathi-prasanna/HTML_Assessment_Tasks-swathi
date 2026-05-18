@@ -8,7 +8,7 @@
 
 ## Assessment Title
 HTML Fundamentals Assessment
-TASK-1
+##TASK-1
 **Home Page (index.html):**
 The home page introduces the portfolio website with a hero section, navigation menu, and brief overview sections. It uses semantic HTML elements like `<header>`, `<nav>`, `<main>`, and `<section>` to organize content clearly.
 
