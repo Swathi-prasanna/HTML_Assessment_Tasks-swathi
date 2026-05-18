@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>sample Shopping</title>
+</head>
+<center>
+<body  bgcolor="pink">
+
+    <!-- HEADER -->
+    <header id="top"
+        class="main-header"
+        title="Flipkart Shopping Header">
+
+        <h1 id="mainTitle"
+            class="heading title-text"
+            title="Main Heading"
+            data-page="Sample-shopping">
+
+            sample shopping Shopping
+        </h1>
+
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav id="navbar"
+        class="nav-bar"
+        title="Navigation Menu">
+
+        <a id="homeLink"
+            class="nav-link"
+            href="#products"
+            tabindex="1"
+            title="Go to Products">
+
+            Products
+        </a>
+
+        &nbsp;&nbsp;
+
+        <a id="aboutLink"
+            class="nav-link"
+            href="#about"
+            tabindex="2"
+            title="Go to About Section">
+
+            About
+        </a>
+
+        &nbsp;&nbsp;
+
+        <a id="contactLink"
+            class="nav-link"
+            href="#contact"
+            tabindex="3"
+            title="Go to Contact Section">
+
+            Contact
+        </a>
+
+    </nav>
+
+    <hr>
+</center>
+
+<div-align="left">
+    <!-- PRODUCTS SECTION -->
+    <section id="products"
+        class="product-section"
+        title="Products Section">
+
+        <h2 id="productHeading"
+            class="section-heading"
+            data-category="shopping-products">
+
+            Shopping Products
+        </h2>
+
+        <!-- PRODUCT CARD 1 -->
+        <div id="product1"
+            class="product-card box"
+            data-product-id="101"
+            data-price="50000"
+            draggable="true"
+            title="Laptop Product">
+       
+
+            <h3 class="product-name">
+                Laptop &trade;
+            </h3>
+
+            <p class="description">
+                Price: 50000 &euro;
+            </p>
+
+        <img src="icons/download16.jpg"
+        </div>
+
+        <br>
+
+        <!-- PRODUCT CARD 2 -->
+        <div id="product2"
+            class="product-card box"
+            data-product-id="102"
+            data-price="20000"
+            draggable="true"
+            title="Mobile Product">
+
+            <h3 class="product-name">
+                Mobile &reg;
+            </h3>
+
+            <p class="description">
+                6 GB RAM | 128 GB ROM 
+             Dimensity 7400 Ultra | 
+              Core Processor 
+              | 2.6 GHz Clock Speed
+               50MP + 2MP Rear Camera
+              8MP Front Camera
+                6.72 inch
+                Price: 20000 &pound;
+            </p>
+        <img src="icons/mobile.jpg">
+        </div>
+
+        <br>
+
+        <!-- PRODUCT CARD 3 -->
+        <div id="product3"
+            class="product-card box"
+            data-product-id="103"
+            data-price="1000"
+            draggable="true"
+            title="Headphones Product">
+        
+
+            <h3 class="product-name">
+                Headphones
+            </h3>
+
+            <p class="description">
+                Colour: pink
+               Brand	Bluedee
+               Colour	Black
+               Ear Placement	Over Ear
+               Form Factor	Over Ear
+             bImpedance	32 Ohms
+                Price: 1000 &copy;
+            </p>
+        <img src="./icons/Headphones.jpg" width="200">
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!-- CONTENT EDITABLE -->
+    <section id="editableSection"
+        class="edit-box">
+
+        <h2 class="section-heading">
+            Editable Offers
+        </h2>
+
+        <p id="editable1"
+            class="editable-text"
+            contenteditable="true"
+            title="Editable Paragraph">
+
+           <p>
+         Get exciting discounts on laptops, mobiles, and accessories. 
+        Limited-time offers available with free delivery and cashback deals.
+</p>
+        </p>
+
+        <div id="editable2"
+            class="editable-box"
+            contenteditable="true"
+            title="Editable Div">
+
+            <p>
+          Flat 20% OFF on Laptops, 15% OFF on Mobiles, and 10% OFF on Headphones. 
+           Offer valid till this weekend only.
+            </p>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!-- FORM -->
+    <section id="contact"
+        class="contact-section"
+        title="Contact Form">
+
+        <h2 class="section-heading">
+            Customer Contact Form
+        </h2>
+
+        <form id="contactForm"
+            class="form-box">
+
+            <label for="name">Customer Name:</label>
+
+            <input type="text"
+                id="name"
+                class="input-field"
+                spellcheck="true"
+                tabindex="0">
+
+            <br><br>
+
+            <label for="message">Customer Message:</label>
+
+            <textarea id="message"
+                class="input-field"
+                spellcheck="false"></textarea>
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <!-- LANGUAGE EXAMPLES -->
+    <section id="about"
+        class="about-section">
+
+        <h2 class="section-heading">
+            Language Support
+        </h2>
+
+        <p lang="fr">
+             Sample Shopping
+        </p>
+
+        <p lang="ar"
+            dir="rtl">
+
+          مرحبا بكم في متجر الهواتف
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- TRANSLATE ATTRIBUTE -->
+    <section id="translateSection">
+
+        <h2 class="section-heading">
+            Brand Names
+            
+        </h2>
+
+        <p translate="no">
+            Sample Big Billion Days
+            <p>
+       Big Billion Days Sale is live! Enjoy massive discounts on laptops, mobiles, headphones, and more. Hurry, limited-time offers with exciting deals and cashback!
+</p>
+        </p>
+
+    </section>
+
+    <hr>
+
+    <!-- HIDDEN CONTENT -->
+    <div id="hiddenContent"
+        hidden>
+
+        Hidden shopping content.
+    </div>
+
+    <!-- ENTITIES -->
+    <section id="entities"
+        class="entity-section">
+
+        <h2 class="section-heading">
+            HTML Entities
+        </h2>
+
+        <section>
+
+
+    <p>&copy; 2026 Mobile Store</p>
+
+    <p>&reg; Registered Brand</p>
+
+    <p>Samsung Galaxy &trade;</p>
+
+    <p>Price in Europe: &euro;500</p>
+
+    <p>Price in UK: &pound;450</p>
+
+    <p>Apple&nbsp;iPhone&nbsp;15</p>
+
+    <p>&lt;mobile&gt; tag example</p>
+
+    <p>5 &gt; 3 (Greater Than Example)</p>
+
+    <p>Tom &amp; Jerry</p>
+
+    <p>&quot;Best Mobile Deals&quot;</p>
+
+</section>
+
+    </section>
+
+    <hr>
+    
+</div-align="left">
+
+
+    <!-- FOOTER -->
+    <center>
+    <footer id="footer"
+        class="footer-area"
+        title="Footer Section">
+
+        <p>
+            Sample Shopping Website &copy; 2026
+        </p>
+
+    </footer>
+</center>
+</body>
+
+</html>
