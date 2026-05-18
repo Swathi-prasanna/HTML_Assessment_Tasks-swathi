@@ -20,5 +20,5 @@ The projects page showcases at least six projects, each containing an image, tit
 
 **Contact Page (contact.html):**
 The contact page includes a form with labeled inputs for name, email, phone, subject selection, and message textarea. It allows users to submit inquiries and demonstrates proper use of form elements and accessibility with `<label>` tags.
-LINK:
+LINK: https://github.com/Swathi-prasanna/HTML_Assessment_Tasks-swathi/tree/master/Task-1
 
