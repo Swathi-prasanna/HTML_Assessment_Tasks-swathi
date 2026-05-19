@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UNIQUE TITLE -->
+    <title>Home - Documentation - HTML Guide</title>
+</head>
+
+<body>
+
+    <!-- SKIP LINK -->
+    <a href="#maincontent">Skip to Content</a>
+
+    <!-- HEADER -->
+    <header>
+
+        <h1>HTML Guide Website</h1>
+
+        <!-- SEARCH FORM -->
+        <form role="search" aria-label="Website Search">
+
+            <label for="search">Search:</label>
+
+            <input type="search"
+                   id="search"
+                   name="search"
+                   placeholder="Search here">
+
+            <button type="submit">Search</button>
+
+        </form>
+
+        <!-- NAVIGATION -->
+        <nav role="navigation" aria-label="Main Navigation">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="getting-started.html">Getting Started</a></li>
+
+                <li><a href="reference.html">Reference</a></li>
+
+                <li><a href="examples.html">Examples</a></li>
+
+                <li><a href="sitemap.html">Sitemap</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <!-- BREADCRUMB -->
+    <nav aria-label="Breadcrumb">
+
+        <ol>
+            <li><a href="index.html">Home</a></li>
+        </ol>
+
+    </nav>
+
+    <hr>
+
+    <!-- MAIN CONTENT -->
+    <main id="maincontent" role="main">
+
+        <section aria-labelledby="welcome-heading">
+
+            <h2 id="welcome-heading">Welcome to HTML Guide</h2>
+
+            <img src="./image/html structure.jpg"
+                 alt="HTML learning illustration"
+                 width="400">
+
+            <p>
+                This website helps beginners learn HTML step by step.<br>
+                You can explore tutorials, examples, and references.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- DETAILS 1 -->
+        <section>
+
+            <h2>Why Learn HTML?</h2>
+
+            <details>
+                <summary>Click to Read More</summary>
+
+                <p>
+                    HTML is the foundation of web development.
+                    It helps create webpages and structure content.
+                </p>
+
+            </details>
+
+        </section>
+
+        <hr>
+
+        <!-- DETAILS 2 -->
+        <section>
+
+            <h2>Benefits of HTML</h2>
+
+            <details>
+                <summary>View Benefits</summary>
+
+                <ul>
+                    <li>Easy to learn</li>
+                    <li>Used in all websites</li>
+                    <li>Works with CSS and JavaScript</li>
+                </ul>
+
+            </details>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+
+        <p>&copy; 2026 HTML Guide</p>
+
+        <p>
+            Last Updated:
+            <time datetime="2026-05-19">May 19, 2026</time>
+        </p>
+
+        <address>
+            Contact: support@htmlguide.com
+        </address>
+
+        <p>
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">YouTube</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>
